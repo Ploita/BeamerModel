@@ -1,0 +1,255 @@
+\documentclass[
+11pt,notheorems,hyperref={pdfauthor=Autor}
+]{beamer}
+
+\input{loadslides.tex}
+
+% =========================
+% Metadados da apresentacao
+% =========================
+\title{Análise do Treinamento de Redes Neurais Profundas no Paradigma de Aprendizado por Reforço Através do Plano de Informação}
+% \subtitle{Defesa de Mestrado}
+\author{Arthur Fernandes}
+\institute{Universidade Estadual de Campinas}
+\date{Campinas 2025}
+
+\newcommand{\orientador}{Prof. Dr. Denis Fantinato}
+
+% =========================
+% Capa no estilo da defesa
+% =========================
+\renewcommand{\maketitle}{
+\vspace{-6\baselineskip}
+
+\begin{center}
+    \IfFileExists{figuras/logo_feec.png}{\includegraphics[height=1.25cm]{figuras/logo_feec.png}}{}\hfill
+    \IfFileExists{figuras/logo_dspcom.pdf}{\includegraphics[height=1.25cm]{figuras/logo_dspcom.pdf}}{}
+\end{center}
+
+\begin{center}
+    \IfFileExists{figuras/unicamp-logotipo.pdf}{\includegraphics[height=2.5cm]{figuras/unicamp-logotipo.pdf}}{}
+\end{center}
+
+\begin{center}
+    \large\text{\insertinstitute}
+\end{center}
+
+\vspace{0.5cm}
+\centering
+\Large\textbf{\inserttitle}
+ 
+\vspace{0.2cm}
+\normalsize\insertsubtitle
+
+\vspace{0.6cm}
+\begin{center}
+    {\large \insertauthor}\\
+    \small \orientador
+\end{center}
+
+\vfill
+
+\begin{center}
+    \scriptsize\insertdate
+\end{center}
+\vspace{-4.5\baselineskip}
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+    \maketitle
+\end{frame}
+
+\begin{frame}[plain]{Sumário}
+    \tableofcontents
+\end{frame}
+
+\section{Introdução}
+\begin{frame}{Introdução}
+\begin{columns}[T,onlytextwidth]
+    \column{0.52\textwidth}
+    \begin{itemize}
+        \item Supervisionado
+        \item Não Supervisionado
+        \item Por Reforço (RL)
+    \end{itemize}
+
+    \column{0.48\textwidth}
+    \centering
+    \FigureWithFallbackCaption
+    {figuras/introdução/ml_ramifications.png}
+    {Paradigmas de aprendizado: supervisionado, não supervisionado e por reforço.}
+
+\end{columns}
+\end{frame}
+
+\begin{frame}{Introdução}{Uso de redes profundas \textcite{mnih2015human}}
+    \centering
+    \begin{minipage}{0.78\textwidth}
+        \FigureWithFallbackCaption
+        {figuras/introdução/dqn_mnih.png}
+        {Arquitetura DQN aplicada a jogos Atari \parencite{mnih2015human}.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Introdução}{Plano de Informação e Information Bottleneck}
+\begin{columns}[T,onlytextwidth]
+    \column{0.50\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/introdução/information_plane_tishby.png}
+    {Plano de Informação na formulação clássica \parencite{shwartz2017opening}.}
+
+    \column{0.50\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/introdução/information_bottleneck_lu.png}
+    {Adaptações para RL via Information Bottleneck \parencite{lu2020dynamics,fan2022dribo}.}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Objetivos da pesquisa}
+\begin{itemize}
+    \item Objetivo geral: aprofundar a compreensão da dinâmica do aprendizado em RL a partir do plano de informação.
+    \item Investigar o fluxo de informação na rede profunda durante o aprendizado do agente.
+    \item Analisar trajetórias no plano de informação e identificar possíveis estágios do aprendizado.
+    \item Propor variação do plano de informação para RL sem depender de rótulo explícito.
+    \item Avaliar efeito de topologias distintas em diferentes ambientes.
+\end{itemize}
+\end{frame}
+
+\section{Fundamentação}
+\begin{frame}{Fundamentação}{Bases teóricas}
+\begin{itemize}
+    \item Redes neurais artificiais: Perceptron e MLP \parencite{haykin2009neural}.
+    \item Aprendizado por reforço: funções valor, actor-critic e PPO \parencite{russell2010artificial,sutton1998reinforcement,schulman2017proximal}.
+    \item Teoria da informação: entropia, divergência KL e informação mútua \parencite{cover2006elements}.
+    \item Information Bottleneck e plano de informação \parencite{tishby2015deep,shwartz2017opening}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Redes Neurais Artificiais}
+\begin{columns}[T,onlytextwidth]
+    \column{0.50\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/fundamentação/perceptron.png}
+    {Perceptron \parencite{haykin2009neural}.}
+
+    \column{0.50\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/fundamentação/network.png}
+    {MLP e representação em camadas \parencite{haykin2009neural}.}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Aprendizado por Reforço}
+\begin{columns}[T,onlytextwidth]
+    \column{0.52\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/fundamentação/rl_problematic.png}
+    {Formulação do problema de RL \parencite{sutton1998reinforcement}.}
+
+    \column{0.48\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/fundamentação/loss_ppo.png}
+    {Objetivo do PPO \parencite{schulman2017proximal}.}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Teoria da Informação}
+\begin{columns}[T,onlytextwidth]
+    \column{0.50\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/fundamentação/information_problem.png}
+    {Entropia, divergência KL e informação mútua \parencite{cover2006elements}.}
+
+    \column{0.50\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/fundamentação/information_plane_shwartz.png}
+    {Plano de Informação \parencite{shwartz2017opening}.}
+\end{columns}
+\end{frame}
+
+\section{Metodologia}
+\begin{frame}{Metodologia proposta}
+\begin{enumerate}
+    \item Agente PPO com topologia padrão de duas camadas intermediárias (32 neurônios cada).
+    \item Topologias alternativas com uma e três camadas para comparação.
+    \item Estimação de informação mútua com NPEET/KNN \parencite{kraskov2004estimating}.
+    \item Ambientes: Pendulum, Acrobot, MountainCar e CartPole.
+    \item Cada experimento executado por $10^6$ passos.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Metodologia}{Agente e implementação}
+\begin{columns}[T,onlytextwidth]
+    \column{0.56\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/metodologia/used_network.png}
+    {Topologia de rede utilizada nos experimentos.}
+
+    \column{0.44\textwidth}
+    \FigureWithFallbackCaption
+    {figuras/metodologia/stable_baselines3.png}
+    {Implementação com Stable-Baselines3.}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Metodologia}{Fluxo de treinamento e estimação}
+\begin{itemize}
+    \item Interação com ambiente até preencher buffer de 2048 passos.
+    \item Pausa da coleta e atualização das redes ator/crítico por 10 épocas.
+    \item Estimação de informação mútua a cada época de atualização.
+    \item Reinício do buffer e continuação da interação com política atualizada.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Metodologia}{Estimação de Informação Mútua}
+    \centering
+    \begin{minipage}{0.78\textwidth}
+        \FigureWithFallbackCaption
+        {figuras/metodologia/kraskov_knn.png}
+        {Estimação por KNN conforme \textcite{kraskov2004estimating}.}
+    \end{minipage}
+\end{frame}
+
+\section{Resultados}
+\begin{frame}{Resultados principais}
+\begin{itemize}
+    \item Observação de fases distintas no processo de aprendizado.
+    \item Tendências no plano de informação indicam potencial convergência.
+    \item Diferenças entre topologias afetam dinâmica e estabilidade.
+    \item Flutuações na IM estimada são inerentes ao método de estimação.
+\end{itemize}
+\end{frame}
+
+\section{Conclusão}
+\begin{frame}{Conclusoes e contribuicoes}
+\begin{itemize}
+    \item O plano de informação é uma métrica alternativa promissora para análise em RL.
+    \item Há evidências de estágios distintos ao longo do treinamento.
+    \item Generalização dos padrões ainda requer investigação aprofundada.
+    \item As trajetórias no plano de informação trazem sinais úteis para diagnóstico do aprendizado.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Proximos passos}
+\begin{itemize}
+    \item Expandir análise para ambientes mais complexos da Gymnasium.
+    \item Comparar com DQN, SAC e TD3.
+    \item Investigar impacto de hiperparâmetros e topologias na trajetória da IM.
+    \item Explorar uso da IM como critério de convergência do agente.
+\end{itemize}
+\end{frame}
+
+\section{Referências}
+\begin{frame}[allowframebreaks]{Referências}
+    \small
+    \setlength{\leftmargini}{1.8em}
+    \setlength{\bibitemsep}{0.25\baselineskip}
+    \setlength{\bibhang}{1.0em}
+    \raggedright
+    \justifying
+    \printbibliography
+\end{frame}
+
+\end{document}

@@ -1,0 +1,384 @@
+                    UNIVERSIDADE ESTADUAL DE CAMPINAS
+
+
+
+Análise do Treinamento de Redes Neurais Profundas no Paradigma de Aprendizado por
+                      Reforço Através do Plano de Informação
+
+
+
+                                                                     Arthur Fernandes
+
+
+
+
+                                     Campinas 2025
+Sumário
+Introdução
+
+Fundamentação
+
+Metodologia
+
+Resultados
+
+Conclusão
+
+Referências
+                2
+Introdução
+
+ - Supervisionado
+ - Não Supervisionado
+ - Por Reforço (RL)
+
+
+
+
+                        3
+Introdução
+
+Uso de redes profundas em RL (Mnih et al., 2015)
+
+
+
+
+                                                   4
+Introdução
+
+Recompensa acumulada
+
+
+
+
+                       5
+Introdução
+
+Plano de Informação (Shwartz-Ziv; Tishby, 2017)
+
+
+
+
+                                                  6
+Introdução
+
+Information Bottleneck e RL (Lu et al., 2020; Fan e Li, 2022)
+
+
+
+
+                                                                7
+Objetivos
+
+Geral: aprofundar a compreensão da dinâmica do aprendizado em RL a partir do
+plano de informação
+
+
+Específicos:
+ - Investigar a relação entre o fluxo de informação na rede profunda e o
+   processo de aprendizado do agente em RL;
+ - Analisar trajetórias no plano de informação e identificar possíveis estágios do
+   aprendizado;
+ - Propor uma variação do plano de informação para RL, de forma a não
+   depender de um rótulo;
+ - Avaliar o efeito de topologias distintas no plano de informação, considerando
+   diferentes cenários em RL.
+
+                                                                              8
+Fundamentação
+
+Redes Neurais Artificiais           Teoria da Informação
+ - Perceptron                        - Entropia, Divergência    KL       e
+ - Multi-Layer Perceptron              Informação Mútua
+                                     - Information Bottleneck
+                                     - Plano de Informação
+Aprendizado por Reforço
+ -   Introdução ao RL
+ -   Funções Valor
+ -   Função de Aproximação
+ -   Actor-Critic
+ -   Proximal Policy Optimization
+
+
+
+                                                                     9
+Fundamentação – Redes Neurais Artificiais
+
+Perceptron (Haykin, 2009)
+
+
+
+
+                                            10
+Fundamentação – Redes Neurais Artificiais
+
+Multi-Layer Perceptron (MLP) (Haykin, 2009)
+
+
+
+
+                                              11
+Fundamentação – Aprendizado por Reforço
+Introdução ao Aprendizado por Reforço (Russel et al., 2010)
+
+
+
+
+                                                              12
+Fundamentação – Aprendizado por Reforço
+Funções Valor e Função de Aproximação (Sutton; Barto, 1998)
+
+
+
+
+                                                              13
+Fundamentação – Aprendizado por Reforço
+
+Actor-Critic
+
+
+
+
+               Actor Network      Critic Network
+
+
+
+                                                   14
+Fundamentação – Aprendizado por Reforço
+Proximal Policy Optimization (Schulman et al., 2017)
+
+
+
+
+                                                       15
+Fundamentação – Teoria da Informação
+
+Entropia, Divergência KL e Informação Mútua (Cover; Thomas, 2006)
+
+
+
+
+                                                                    16
+Fundamentação – Teoria da Informação
+
+Information Bottleneck (Tishby; Zaslavsky, 2015)
+
+
+
+
+                                                   17
+Fundamentação – Teoria da Informação
+
+Plano de Informação (Shwartz-Ziv; Tishby, 2017)
+
+
+
+
+                                                  18
+Fundamentação – Teoria da Informação
+
+Plano de Informação: abordagem alternativa para o caso RL
+Usamos    para ao invés do rótulo
+
+
+
+
+                                                            19
+Metodologia
+
+Agente, Estimação de Informação Mútua e Ambientes
+
+
+
+
+                                                    20
+Metodologia – Agente
+
+Topologia padrão: duas camadas intermediárias com 32 neurônios.
+Topologias alternativas: uma camada intermediária com 32 neurônios; e três
+camadas intermediárias com 32 neurônios.
+Cada experimento foi executado por 106 passos.
+
+
+
+
+                                                        Stable-Baselines3
+                                                                            21
+Metodologia – Informação Mútua
+
+A biblioteca NPEET foi utilizada para a estimação da IM, o método é baseado em
+Kraskov et al. (2004).
+Pequenas flutuações e ruídos na curva de IM estimada são inerentes ao processo
+de estimação.
+Foi analisado o fluxo entre todas as camadas, não só utilizando entrada e saída
+real.
+
+
+
+
+                                                                           22
+Metodologia – Informação Mútua
+
+KNN (Kraskov et al., 2004)
+
+
+
+
+                                 23
+Metodologia – Ambientes
+
+Ambientes usados: Pendulum, Acrobot, MountainCar e CartPole.
+
+
+
+
+  Critérios para finalização do episódio:
+  • Se a posição do carrinho ultrapassar a região (-2.4, 2.4);
+  • Se o ângulo da haste sair da região (-12º, 12º);
+  • Se a recompensa acumulada atingir o limite de 500.
+
+
+                                                                 24
+Resultados
+
+Quadro de experimentos
+
+
+
+
+                         25
+Resultados – Experimento II
+
+
+
+
+                              26
+Resultados – Experimento VIII
+
+
+
+
+                                27
+Resultados – Experimento IV
+
+
+
+
+                              28
+Conclusão
+
+- Fases distintas no aprendizado;
+
+
+- Generalização requer investigação aprofundada;
+
+
+- O plano de informação como métrica alternativa;
+
+
+- Tendências no plano de informação podem indicar uma potencial
+  convergência do aprendizado.
+
+
+
+
+                                                           29
+Referências
+COVER, T. M.; THOMAS, Joy A. Elements of information theory. 2nd ed ed. Hoboken, N.J: Wiley-Interscience,
+2006.
+
+FAN, Jiameng; LI, Wenchao. DRIBO: Robust Deep Reinforcement Learning via Multi-View Information
+Bottleneck. In: CHAUDHURI, Kamalika et al. (orgs.). : Proceedings of Machine Learning Research.PMLR, 17 jul.
+2022. Disponível em: <https://proceedings.mlr.press/v162/fan22b.html>
+
+HAYKIN, Simon S. Neural networks and learning machines. 3. ed ed. New York Munich: Prentice-Hall, 2009.
+
+KRASKOV, Alexander; STÖGBAUER, Harald; GRASSBERGER, Peter. Estimating mutual information. Physical
+Review E, v. 69, n. 6, jun. 2004.
+
+LU, Xingyu et al. Dynamics Generalization via Information Bottleneck in Deep Reinforcement Learning.
+arXiv, , 3 ago. 2020. Disponível em: <http://arxiv.org/abs/2008.00614>. Acesso em: 30 jan. 2025
+
+MNIH, Volodymyr et al. Human-level control through deep reinforcement learning. Nature, v. 518, n. 7540, p.
+529–533, 26 fev. 2015.
+
+                                                                                                      30
+Referências
+RUSSELL, Stuart J.; NORVIG, Peter; DAVIS, Ernest. Artificial intelligence: a modern approach. 3rd ed ed.
+Upper Saddle River: Prentice Hall, 2010.
+
+SCHULMAN, John et al. Proximal Policy Optimization Algorithms. arXiv, , 28 ago. 2017. Disponível em:
+<http://arxiv.org/abs/1707.06347>. Acesso em: 5 abr. 2024
+
+SHWARTZ-ZIV, Ravid; TISHBY, Naftali. Opening the Black Box of Deep Neural Networks via Information.
+arXiv, , 29 abr. 2017. Disponível em: <http://arxiv.org/abs/1703.00810>. Acesso em: 21 set. 2024
+
+SUTTON, Richard S.; BARTO, Andrew G. Reinforcement learning: an introduction. Cambridge, Mass: MIT
+Press, 1998.
+
+TISHBY, Naftali; ZASLAVSKY, Noga. Deep learning and the information bottleneck principle. In: 2015 IEEE
+INFORMATION THEORY WORKSHOP (ITW). 2015 IEEE Information Theory Workshop (ITW). Jerusalem,
+Israel: IEEE, abr. 2015. Disponível em: <http://ieeexplore.ieee.org/document/7133169/>. Acesso em: 12 jun. 2025
+
+
+
+                                                                                                            31
+Fundamentação – Aprendizado por Reforço
+Definições de Aprendizado por Reforço (Sutton; Barto, 1998)
+
+
+
+
+                                                              32
+Metodologia – Agente
+
+ \item a partir da inicialização aleatória das redes, ocorre a interação do agente
+com o ambiente, registrando as transições até o \textit{buffer} atingir o número
+de passos definido $(2048)$;
+   \item em seguida, a interação com o episódio atual é pausada e inicia-se a
+atualização das redes ator e crítico pelo número de épocas definido $(10)$.
+Durante esta etapa, também ocorre o processo de estimação da informação mútua
+após cada época de atualização;
+    \item Terminadas as épocas, o \textit{buffer} é reiniciado e se continua o
+processo de interação do agente com o ambiente, agora com a nova política.
+
+
+
+
+                                                                             33
+Trabalhos Futuros
+
+ - Realizar uma análise detalhada da evolução da IM entre as camadas e a saída
+   da rede \hat Y em tarefas de aprendizado supervisionado bem estabelecidas
+   (exemplo MNIST);
+
+
+ - Expansão dos experimentos para ambientes mais complexos, incluindo uma
+   gama mais ampla de ambientes da biblioteca Gymnasium;
+
+
+ - Investigar o impacto de diferentes topologias de rede nas métricas de IM e na
+   performance do agente;
+
+
+ - Conduzir uma comparação sobre como a otimização de hiperparâmetros
+   afeta a trajetória do agente no plano de informação;
+                                                                           34
+Trabalhos Futuros
+
+ - Explorar a possibilidade de incorporar métricas de IM diretamente no
+   processo de otimização de hiperparâmetros;
+
+
+ - Comparar com outras técnicas de RL como Deep Q-Network (DQN), Soft
+   Actor-Critic (SAC) e Twin Delayed DDPG (TD3);
+
+
+ - Avaliar o uso do plano de informação como métrica de convergência do
+   aprendizado do agente.
+
+
+
+
+                                                                   35
+

@@ -1,0 +1,39 @@
+% Copyright (c) 2022 by Lars Spreng
+% This work is licensed under the Creative Commons Attribution 4.0 International License. 
+% To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+\mode<presentation>
+
+\mode<presentation>
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Define folder tree
+\def\beamer@calltheme#1#2#3{%
+    \def\beamer@themelist{#2}
+    \@for\beamer@themename:=\beamer@themelist\do
+    {\usepackage[{#1}]{\beamer@themelocation/#3\beamer@themename}}}
+
+\def\usefolder#1{
+    \def\beamer@themelocation{#1}
+  }
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Reusable figure block: image if file exists, otherwise a placeholder box.
+% Args: 1=file path, 2=caption.
+\newcommand{\FigureWithFallbackCaption}[2]{%
+  \begingroup
+  \begin{minipage}{\linewidth}
+    \centering
+    \IfFileExists{#1}{%
+      \includegraphics[width=\linewidth]{#1}%
+    }{%
+      \fbox{\parbox[c][0.48\textheight][c]{\linewidth}{\centering
+      placeholder text}}%
+    }%
+    \captionsetup{type=figure,width=\linewidth,justification=justified,singlelinecheck=false}
+    \caption{#2}%
+  \end{minipage}
+  \endgroup
+}
+  
+\mode<all>
