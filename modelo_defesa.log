@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.14)  30 MAR 2026 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.14)  6 APR 2026 12:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,7 +532,33 @@ Package: amsthm 2020/05/29 v2.20.6
 )) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen300
 \beamer@dimb=\dimen301
-) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (./loadslides.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/media9/media9.sty
+Package: media9 2025/06/24 v1.30 acrobat-9/X compatible media
+\g_mix_pkgresizeflag_int=\count357
+ (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
+Package: pdfbase 2024/09/16 v0.59 driver independent access to low-level PDF features
+ (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count358
+)
+\g_pbs_page_int=\count359
+\g_pbs_oc_int=\count360
+) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2024/09/15 v0.24 support package for ocgx2.sty
+)
+\l_mix_poster_box=\box78
+\g_mix_wd_dim=\dimen302
+\g_mix_ht_dim=\dimen303
+\g_mix_dp_dim=\dimen304
+\g_mix_rmcnt_int=\count361
+\l_mix_viewcnt_int=\count362
+\g@mix@page@int=\count363
+\g_mix_resizeflag_int=\count364
+\l_mix_lineno_int=\count365
+\l_mix_pbtn_box=\box79
+\g_mix_mbtncnt_int=\count366
+\mix@btn@dim=\dimen305
+) (./loadslides.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip67
 \RaggedLeftLeftskip=\skip68
@@ -548,7 +574,7 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip78
 \RaggedRightParindent=\skip79
 \JustifyingParindent=\skip80
-) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
+) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -566,89 +592,89 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box78
+\pgfnodeparttextbox=\box80
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
+\pgf@nodesepstart=\dimen306
+\pgf@nodesepend=\dimen307
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
+\pgffor@iter=\dimen308
+\pgffor@skip=\dimen309
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 )) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count357
-\pgfplotmarksize=\dimen306
+\pgf@plot@mark@count=\count367
+\pgfplotmarksize=\dimen310
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
-\tikz@figbox=\box79
-\tikz@figbox@bg=\box80
-\tikz@tempbox=\box81
-\tikz@tempbox@bg=\box82
-\tikztreelevel=\count358
-\tikznumberofchildren=\count359
-\tikznumberofcurrentchild=\count360
-\tikz@fig@count=\count361
+\tikz@lastx=\dimen311
+\tikz@lasty=\dimen312
+\tikz@lastxsaved=\dimen313
+\tikz@lastysaved=\dimen314
+\tikz@lastmovetox=\dimen315
+\tikz@lastmovetoy=\dimen316
+\tikzleveldistance=\dimen317
+\tikzsiblingdistance=\dimen318
+\tikz@figbox=\box81
+\tikz@figbox@bg=\box82
+\tikz@tempbox=\box83
+\tikz@tempbox@bg=\box84
+\tikztreelevel=\count368
+\tikznumberofchildren=\count369
+\tikznumberofcurrentchild=\count370
+\tikz@fig@count=\count371
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count362
-\pgfmatrixcurrentcolumn=\count363
-\pgf@matrix@numberofcolumns=\count364
+\pgfmatrixcurrentrow=\count372
+\pgfmatrixcurrentcolumn=\count373
+\pgf@matrix@numberofcolumns=\count374
 )
-\tikz@expandcount=\count365
+\tikz@expandcount=\count375
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-\c@sectionpage=\count366
+\c@sectionpage=\count376
 ) (./styles/beamerouterthemeelegant.sty)) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen315
-\lightrulewidth=\dimen316
-\cmidrulewidth=\dimen317
-\belowrulesep=\dimen318
-\belowbottomsep=\dimen319
-\aboverulesep=\dimen320
-\abovetopsep=\dimen321
-\cmidrulesep=\dimen322
-\cmidrulekern=\dimen323
-\defaultaddspace=\dimen324
-\@cmidla=\count367
-\@cmidlb=\count368
-\@aboverulesep=\dimen325
-\@belowrulesep=\dimen326
-\@thisruleclass=\count369
-\@lastruleclass=\count370
-\@thisrulewidth=\dimen327
+\heavyrulewidth=\dimen319
+\lightrulewidth=\dimen320
+\cmidrulewidth=\dimen321
+\belowrulesep=\dimen322
+\belowbottomsep=\dimen323
+\aboverulesep=\dimen324
+\abovetopsep=\dimen325
+\cmidrulesep=\dimen326
+\cmidrulekern=\dimen327
+\defaultaddspace=\dimen328
+\@cmidla=\count377
+\@cmidlb=\count378
+\@aboverulesep=\dimen329
+\@belowrulesep=\dimen330
+\@thisruleclass=\count379
+\@lastruleclass=\count380
+\@thisrulewidth=\dimen331
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
-\col@sep=\dimen328
-\ar@mcellbox=\box83
-\extrarowheight=\dimen329
+\col@sep=\dimen332
+\ar@mcellbox=\box85
+\extrarowheight=\dimen333
 \NC@list=\toks50
 \extratabsurround=\skip81
 \backup@length=\skip82
-\ar@cellbox=\box84
+\ar@cellbox=\box86
 )
 \everycr=\toks51
 \minrowclearance=\skip83
-\rownum=\count371
+\rownum=\count381
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/schemabloc/schemabloc.sty
 Package: schemabloc version 1.9
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -675,31 +701,31 @@ File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box85
-\pgfnodeparttwobox=\box86
-\pgfnodepartthreebox=\box87
-\pgfnodepartfourbox=\box88
-\pgfnodeparttwentybox=\box89
-\pgfnodepartnineteenbox=\box90
-\pgfnodeparteighteenbox=\box91
-\pgfnodepartseventeenbox=\box92
-\pgfnodepartsixteenbox=\box93
-\pgfnodepartfifteenbox=\box94
-\pgfnodepartfourteenbox=\box95
-\pgfnodepartthirteenbox=\box96
-\pgfnodeparttwelvebox=\box97
-\pgfnodepartelevenbox=\box98
-\pgfnodeparttenbox=\box99
-\pgfnodepartninebox=\box100
-\pgfnodeparteightbox=\box101
-\pgfnodepartsevenbox=\box102
-\pgfnodepartsixbox=\box103
-\pgfnodepartfivebox=\box104
+\pgfnodepartlowerbox=\box87
+\pgfnodeparttwobox=\box88
+\pgfnodepartthreebox=\box89
+\pgfnodepartfourbox=\box90
+\pgfnodeparttwentybox=\box91
+\pgfnodepartnineteenbox=\box92
+\pgfnodeparteighteenbox=\box93
+\pgfnodepartseventeenbox=\box94
+\pgfnodepartsixteenbox=\box95
+\pgfnodepartfifteenbox=\box96
+\pgfnodepartfourteenbox=\box97
+\pgfnodepartthirteenbox=\box98
+\pgfnodeparttwelvebox=\box99
+\pgfnodepartelevenbox=\box100
+\pgfnodeparttenbox=\box101
+\pgfnodepartninebox=\box102
+\pgfnodeparteightbox=\box103
+\pgfnodepartsevenbox=\box104
+\pgfnodepartsixbox=\box105
+\pgfnodepartfivebox=\box106
 ))) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen330
+\arrowsize=\dimen334
 )) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
@@ -708,95 +734,95 @@ File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen331
-\captionmargin=\dimen332
-\caption@leftmargin=\dimen333
-\caption@rightmargin=\dimen334
-\caption@width=\dimen335
-\caption@indent=\dimen336
-\caption@parindent=\dimen337
-\caption@hangindent=\dimen338
+\caption@tempdima=\dimen335
+\captionmargin=\dimen336
+\caption@leftmargin=\dimen337
+\caption@rightmargin=\dimen338
+\caption@width=\dimen339
+\caption@indent=\dimen340
+\caption@parindent=\dimen341
+\caption@hangindent=\dimen342
 Package caption Info: beamer document class detected.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
 ))
-\c@caption@flags=\count372
-\c@continuedfloat=\count373
+\c@caption@flags=\count382
+\c@continuedfloat=\count383
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count374
+\c@subfigure=\count384
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count375
+\c@subtable=\count385
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen339
-\TX@old@table=\dimen340
-\TX@old@col=\dimen341
-\TX@target=\dimen342
-\TX@delta=\dimen343
-\TX@cols=\count376
+\TX@col@width=\dimen343
+\TX@old@table=\dimen344
+\TX@old@col=\dimen345
+\TX@target=\dimen346
+\TX@delta=\dimen347
+\TX@cols=\count386
 \TX@ftn=\toks52
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip84
-\multirow@cntb=\count377
+\multirow@cntb=\count387
 \multirow@dima=\skip85
-\bigstrutjot=\dimen344
+\bigstrutjot=\dimen348
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count378
+\lrq@indent=\count388
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count379
-\c@listtotal=\count380
-\c@listcount=\count381
-\c@liststart=\count382
-\c@liststop=\count383
-\c@citecount=\count384
-\c@citetotal=\count385
-\c@multicitecount=\count386
-\c@multicitetotal=\count387
-\c@instcount=\count388
-\c@maxnames=\count389
-\c@minnames=\count390
-\c@maxitems=\count391
-\c@minitems=\count392
-\c@citecounter=\count393
-\c@maxcitecounter=\count394
-\c@savedcitecounter=\count395
-\c@uniquelist=\count396
-\c@uniquename=\count397
-\c@refsection=\count398
-\c@refsegment=\count399
-\c@maxextratitle=\count400
-\c@maxextratitleyear=\count401
-\c@maxextraname=\count402
-\c@maxextradate=\count403
-\c@maxextraalpha=\count404
-\c@abbrvpenalty=\count405
-\c@highnamepenalty=\count406
-\c@lownamepenalty=\count407
-\c@maxparens=\count408
-\c@parenlevel=\count409
-\blx@tempcnta=\count410
-\blx@tempcntb=\count411
-\blx@tempcntc=\count412
-\c@blx@maxsection=\count413
-\blx@maxsegment@0=\count414
-\blx@notetype=\count415
-\blx@parenlevel@text=\count416
-\blx@parenlevel@foot=\count417
-\blx@sectionciteorder@0=\count418
-\blx@sectionciteorderinternal@0=\count419
-\blx@entrysetcounter=\count420
-\blx@biblioinstance=\count421
+\c@tabx@nest=\count389
+\c@listtotal=\count390
+\c@listcount=\count391
+\c@liststart=\count392
+\c@liststop=\count393
+\c@citecount=\count394
+\c@citetotal=\count395
+\c@multicitecount=\count396
+\c@multicitetotal=\count397
+\c@instcount=\count398
+\c@maxnames=\count399
+\c@minnames=\count400
+\c@maxitems=\count401
+\c@minitems=\count402
+\c@citecounter=\count403
+\c@maxcitecounter=\count404
+\c@savedcitecounter=\count405
+\c@uniquelist=\count406
+\c@uniquename=\count407
+\c@refsection=\count408
+\c@refsegment=\count409
+\c@maxextratitle=\count410
+\c@maxextratitleyear=\count411
+\c@maxextraname=\count412
+\c@maxextradate=\count413
+\c@maxextraalpha=\count414
+\c@abbrvpenalty=\count415
+\c@highnamepenalty=\count416
+\c@lownamepenalty=\count417
+\c@maxparens=\count418
+\c@parenlevel=\count419
+\blx@tempcnta=\count420
+\blx@tempcntb=\count421
+\blx@tempcntc=\count422
+\c@blx@maxsection=\count423
+\blx@maxsegment@0=\count424
+\blx@notetype=\count425
+\blx@parenlevel@text=\count426
+\blx@parenlevel@foot=\count427
+\blx@sectionciteorder@0=\count428
+\blx@sectionciteorderinternal@0=\count429
+\blx@entrysetcounter=\count430
+\blx@biblioinstance=\count431
 \labelnumberwidth=\skip86
 \labelalphawidth=\skip87
 \biblabelsep=\skip88
@@ -808,9 +834,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read3
 \blx@bcfout=\write5
 \blx@langwohyphens=\language90
-\c@mincomprange=\count422
-\c@maxcomprange=\count423
-\c@mincompwidth=\count424
+\c@mincomprange=\count432
+\c@maxcomprange=\count433
+\c@mincompwidth=\count434
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -820,74 +846,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count425
-\c@savedafterword=\count426
-\c@annotator=\count427
-\c@savedannotator=\count428
-\c@author=\count429
-\c@savedauthor=\count430
-\c@bookauthor=\count431
-\c@savedbookauthor=\count432
-\c@commentator=\count433
-\c@savedcommentator=\count434
-\c@editor=\count435
-\c@savededitor=\count436
-\c@editora=\count437
-\c@savededitora=\count438
-\c@editorb=\count439
-\c@savededitorb=\count440
-\c@editorc=\count441
-\c@savededitorc=\count442
-\c@foreword=\count443
-\c@savedforeword=\count444
-\c@holder=\count445
-\c@savedholder=\count446
-\c@introduction=\count447
-\c@savedintroduction=\count448
-\c@namea=\count449
-\c@savednamea=\count450
-\c@nameb=\count451
-\c@savednameb=\count452
-\c@namec=\count453
-\c@savednamec=\count454
-\c@translator=\count455
-\c@savedtranslator=\count456
-\c@shortauthor=\count457
-\c@savedshortauthor=\count458
-\c@shorteditor=\count459
-\c@savedshorteditor=\count460
-\c@labelname=\count461
-\c@savedlabelname=\count462
-\c@institution=\count463
-\c@savedinstitution=\count464
-\c@lista=\count465
-\c@savedlista=\count466
-\c@listb=\count467
-\c@savedlistb=\count468
-\c@listc=\count469
-\c@savedlistc=\count470
-\c@listd=\count471
-\c@savedlistd=\count472
-\c@liste=\count473
-\c@savedliste=\count474
-\c@listf=\count475
-\c@savedlistf=\count476
-\c@location=\count477
-\c@savedlocation=\count478
-\c@organization=\count479
-\c@savedorganization=\count480
-\c@origlocation=\count481
-\c@savedoriglocation=\count482
-\c@origpublisher=\count483
-\c@savedorigpublisher=\count484
-\c@publisher=\count485
-\c@savedpublisher=\count486
-\c@language=\count487
-\c@savedlanguage=\count488
-\c@origlanguage=\count489
-\c@savedoriglanguage=\count490
-\c@pageref=\count491
-\c@savedpageref=\count492
+\c@afterword=\count435
+\c@savedafterword=\count436
+\c@annotator=\count437
+\c@savedannotator=\count438
+\c@author=\count439
+\c@savedauthor=\count440
+\c@bookauthor=\count441
+\c@savedbookauthor=\count442
+\c@commentator=\count443
+\c@savedcommentator=\count444
+\c@editor=\count445
+\c@savededitor=\count446
+\c@editora=\count447
+\c@savededitora=\count448
+\c@editorb=\count449
+\c@savededitorb=\count450
+\c@editorc=\count451
+\c@savededitorc=\count452
+\c@foreword=\count453
+\c@savedforeword=\count454
+\c@holder=\count455
+\c@savedholder=\count456
+\c@introduction=\count457
+\c@savedintroduction=\count458
+\c@namea=\count459
+\c@savednamea=\count460
+\c@nameb=\count461
+\c@savednameb=\count462
+\c@namec=\count463
+\c@savednamec=\count464
+\c@translator=\count465
+\c@savedtranslator=\count466
+\c@shortauthor=\count467
+\c@savedshortauthor=\count468
+\c@shorteditor=\count469
+\c@savedshorteditor=\count470
+\c@labelname=\count471
+\c@savedlabelname=\count472
+\c@institution=\count473
+\c@savedinstitution=\count474
+\c@lista=\count475
+\c@savedlista=\count476
+\c@listb=\count477
+\c@savedlistb=\count478
+\c@listc=\count479
+\c@savedlistc=\count480
+\c@listd=\count481
+\c@savedlistd=\count482
+\c@liste=\count483
+\c@savedliste=\count484
+\c@listf=\count485
+\c@savedlistf=\count486
+\c@location=\count487
+\c@savedlocation=\count488
+\c@organization=\count489
+\c@savedorganization=\count490
+\c@origlocation=\count491
+\c@savedoriglocation=\count492
+\c@origpublisher=\count493
+\c@savedorigpublisher=\count494
+\c@publisher=\count495
+\c@savedpublisher=\count496
+\c@language=\count497
+\c@savedlanguage=\count498
+\c@origlanguage=\count499
+\c@savedoriglanguage=\count500
+\c@pageref=\count501
+\c@savedpageref=\count502
 \shorthandwidth=\skip94
 \shortjournalwidth=\skip95
 \shortserieswidth=\skip96
@@ -911,19 +937,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count493
-\c@textcitetotal=\count494
-\c@textcitemaxnames=\count495
-\c@biburlbigbreakpenalty=\count496
-\c@biburlbreakpenalty=\count497
-\c@biburlnumpenalty=\count498
-\c@biburlucpenalty=\count499
-\c@biburllcpenalty=\count500
+\c@textcitecount=\count503
+\c@textcitetotal=\count504
+\c@textcitemaxnames=\count505
+\c@biburlbigbreakpenalty=\count506
+\c@biburlbreakpenalty=\count507
+\c@biburlnumpenalty=\count508
+\c@biburlucpenalty=\count509
+\c@biburllcpenalty=\count510
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count501
+\c@smartand=\count511
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -947,8 +973,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count502
-\c@bbx:relatedtotal=\count503
+\c@bbx:relatedcount=\count512
+\c@bbx:relatedtotal=\count513
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -978,10 +1004,7 @@ Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-08-13 L3 programming layer (loader) 
- (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count504
-))
+)
 Package biblatex Info: ... and expl3
 (biblatex)             2025-08-13 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
@@ -991,10 +1014,10 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 )) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen345
-\WF@size=\dimen346
-\c@WF@wrappedlines=\count505
-\WF@box=\box105
+\wrapoverhang=\dimen349
+\WF@size=\dimen350
+\c@WF@wrappedlines=\count514
+\WF@box=\box107
 \WF@everypar=\toks53
 Package: wrapfig 2003/01/31  v 3.6
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -1003,40 +1026,40 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@toka=\toks54
 \t@pgfplots@tokb=\toks55
 \t@pgfplots@tokc=\toks56
-\pgfplots@tmpa=\dimen347
-\c@pgfplots@coordindex=\count506
-\c@pgfplots@scanlineindex=\count507
+\pgfplots@tmpa=\dimen351
+\c@pgfplots@coordindex=\count515
+\c@pgfplots@scanlineindex=\count516
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks57
 \t@pgf@tokb=\toks58
 \t@pgf@tokc=\toks59
 (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count508
+\c@pgfplotsarray@tmp=\count517
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count509
+\c@pgfplotstable@counta=\count518
 \t@pgfplotstable@a=\toks60
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count510
+\c@pgfplotslibrarysurf@no=\count519
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen348
-\pgfdecoratedremainingdistance=\dimen349
-\pgfdecoratedinputsegmentcompleteddistance=\dimen350
-\pgfdecoratedinputsegmentremainingdistance=\dimen351
-\pgf@decorate@distancetomove=\dimen352
-\pgf@decorate@repeatstate=\count511
-\pgfdecorationsegmentamplitude=\dimen353
-\pgfdecorationsegmentlength=\dimen354
+\pgfdecoratedcompleteddistance=\dimen352
+\pgfdecoratedremainingdistance=\dimen353
+\pgfdecoratedinputsegmentcompleteddistance=\dimen354
+\pgfdecoratedinputsegmentremainingdistance=\dimen355
+\pgf@decorate@distancetomove=\dimen356
+\pgf@decorate@repeatstate=\count520
+\pgfdecorationsegmentamplitude=\dimen357
+\pgfdecorationsegmentlength=\dimen358
 )
-\tikz@lib@dec@box=\box106
+\tikz@lib@dec@box=\box108
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count512
-\pgfplots@xmin@reg=\dimen355
-\pgfplots@xmax@reg=\dimen356
-\pgfplots@ymin@reg=\dimen357
-\pgfplots@ymax@reg=\dimen358
-\pgfplots@zmin@reg=\dimen359
-\pgfplots@zmax@reg=\dimen360
+\pgfplots@numplots=\count521
+\pgfplots@xmin@reg=\dimen359
+\pgfplots@xmax@reg=\dimen360
+\pgfplots@ymin@reg=\dimen361
+\pgfplots@ymax@reg=\dimen362
+\pgfplots@zmin@reg=\dimen363
+\pgfplots@zmax@reg=\dimen364
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/home/ploita/.local/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
@@ -1049,7 +1072,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks61
 \XKV@tempa@toks=\toks62
 )
-\XKV@depth=\count513
+\XKV@depth=\count522
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -1057,33 +1080,33 @@ Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
 Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box107
+\collectedbox=\box109
 )
-\tc@llx=\dimen361
-\tc@lly=\dimen362
-\tc@urx=\dimen363
-\tc@ury=\dimen364
+\tc@llx=\dimen365
+\tc@lly=\dimen366
+\tc@urx=\dimen367
+\tc@ury=\dimen368
 Package trimclip Info: Using driver 'tc-pdftex.def'.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen365
-\adjbox@Height=\dimen366
-\adjbox@Depth=\dimen367
-\adjbox@Totalheight=\dimen368
-\adjbox@pwidth=\dimen369
-\adjbox@pheight=\dimen370
-\adjbox@pdepth=\dimen371
-\adjbox@ptotalheight=\dimen372
+\adjbox@Width=\dimen369
+\adjbox@Height=\dimen370
+\adjbox@Depth=\dimen371
+\adjbox@Totalheight=\dimen372
+\adjbox@pwidth=\dimen373
+\adjbox@pheight=\dimen374
+\adjbox@pdepth=\dimen375
+\adjbox@ptotalheight=\dimen376
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count514
+\c@checkoddpage=\count523
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box108
-\sift@deathcycles=\count515
-\@vwid@loff=\dimen373
-\@vwid@roff=\dimen374
+\@vwid@box=\box110
+\sift@deathcycles=\count524
+\@vwid@loff=\dimen377
+\@vwid@roff=\dimen378
 )
 ==> First Aid for varwidth.sty applied!
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/environ/environ.sty
@@ -1091,68 +1114,83 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\measure@tikzpicture=\box109
+\measure@tikzpicture=\box111
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count516
-\calc@Bcount=\count517
-\calc@Adimen=\dimen375
-\calc@Bdimen=\dimen376
+\calc@Acount=\count525
+\calc@Bcount=\count526
+\calc@Adimen=\dimen379
+\calc@Bdimen=\dimen380
 \calc@Askip=\skip108
 \calc@Bskip=\skip109
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count518
+\calc@Ccount=\count527
 \calc@Cskip=\skip110
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count519
-\l_MT_multwidth_dim=\dimen377
+\g_MT_multlinerow_int=\count528
+\l_MT_multwidth_dim=\dimen381
 \origjot=\skip111
-\l_MT_shortvdotswithinadjustabove_dim=\dimen378
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen379
-\l_MT_above_intertext_sep=\dimen380
-\l_MT_below_intertext_sep=\dimen381
-\l_MT_above_shortintertext_sep=\dimen382
-\l_MT_below_shortintertext_sep=\dimen383
-\xmathstrut@box=\box110
-\xmathstrut@dim=\dimen384
+\l_MT_shortvdotswithinadjustabove_dim=\dimen382
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen383
+\l_MT_above_intertext_sep=\dimen384
+\l_MT_below_intertext_sep=\dimen385
+\l_MT_above_shortintertext_sep=\dimen386
+\l_MT_below_shortintertext_sep=\dimen387
+\xmathstrut@box=\box112
+\xmathstrut@dim=\dimen388
+) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-\c@fact=\count520
-\c@examp=\count521
-\c@definition=\count522
-\c@proposition=\count523
-\c@theorem=\count524
-\c@assumption=\count525
+\c@fact=\count529
+\c@examp=\count530
+\c@definition=\count531
+\c@proposition=\count532
+\c@theorem=\count533
+\c@assumption=\count534
 )
-\@quotelevel=\count526
-\@quotereset=\count527
+\@quotelevel=\count535
+\@quotereset=\count536
  (./modelo_defesa.aux)
 \openout1 = `modelo_defesa.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1190,16 +1228,16 @@ LaTeX Font Info:    ... okay on input line 58.
 
 (/home/ploita/.local/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count528
-\scratchdimen=\dimen385
-\scratchbox=\box111
-\nofMPsegments=\count529
-\nofMParguments=\count530
+\scratchcounter=\count537
+\scratchdimen=\dimen389
+\scratchbox=\box113
+\nofMPsegments=\count538
+\nofMParguments=\count539
 \everyMPshowfont=\toks63
-\MPscratchCnt=\count531
-\MPscratchDim=\dimen386
-\MPnumerator=\count532
-\makeMPintoPDFobject=\count533
+\MPscratchCnt=\count540
+\MPscratchDim=\dimen390
+\MPnumerator=\count541
+\makeMPintoPDFobject=\count542
 \everyMPtoPDFconversion=\toks64
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1207,53 +1245,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 64.
  (./modelo_defesa.out) (./modelo_defesa.out)
 \@outlinefile=\write6
 \openout6 = `modelo_defesa.out'.
 
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 58.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 58.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 58.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 58.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 58.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 58.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 58.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -1283,45 +1279,45 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'modelo_defesa.bbl' found.
  (./modelo_defesa.bbl)
-Package biblatex Info: Reference section=0 on input line 58.
-Package biblatex Info: Reference segment=0 on input line 58.
+Package biblatex Info: Reference section=0 on input line 64.
+Package biblatex Info: Reference segment=0 on input line 64.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 (./modelo_defesa.nav)
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 58.
+(Font)              scaled to size 5.69998pt on input line 64.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 58.
+(Font)              scaled to size 8.54997pt on input line 64.
 <figuras/logo_feec.png, id=41, 775.39688pt x 246.42062pt>
 File: figuras/logo_feec.png Graphic file (type png)
 <use figuras/logo_feec.png>
-Package pdftex.def Info: figuras/logo_feec.png  used on input line 62.
+Package pdftex.def Info: figuras/logo_feec.png  used on input line 68.
 (pdftex.def)             Requested size: 111.90315pt x 35.56593pt.
 <figuras/logo_dspcom.pdf, id=43, 204.85985pt x 62.59605pt>
 File: figuras/logo_dspcom.pdf Graphic file (type pdf)
 <use figuras/logo_dspcom.pdf>
-Package pdftex.def Info: figuras/logo_dspcom.pdf  used on input line 62.
+Package pdftex.def Info: figuras/logo_dspcom.pdf  used on input line 68.
 (pdftex.def)             Requested size: 116.39934pt x 35.56593pt.
 <figuras/unicamp-logotipo.pdf, id=44, 302.71455pt x 339.65479pt>
 File: figuras/unicamp-logotipo.pdf Graphic file (type pdf)
 <use figuras/unicamp-logotipo.pdf>
-Package pdftex.def Info: figuras/unicamp-logotipo.pdf  used on input line 62.
+Package pdftex.def Info: figuras/unicamp-logotipo.pdf  used on input line 68.
 (pdftex.def)             Requested size: 63.3964pt x 71.13188pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 62.
+(Font)              scaled to size 11.39996pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 62.
+(Font)              scaled to size 13.67995pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 62.
+(Font)              scaled to size 13.67995pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 62.
+(Font)              scaled to size 9.49997pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 62.
+(Font)              scaled to size 7.59998pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 13.67995pt on input line 62.
+(Font)              scaled to size 13.67995pt on input line 68.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 9.49997pt on input line 62.
+(Font)              scaled to size 9.49997pt on input line 68.
 
 
 [1
@@ -1337,53 +1333,40 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 85.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 91.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 85.
-<figuras/introdução/ml_ramifications.png, id=77, 511.9125pt x 365.365pt>
+(Font)              scaled to size 10.40245pt on input line 91.
+<figuras/introdução/ml_ramifications.png, id=81, 511.9125pt x 365.365pt>
 File: figuras/introdução/ml_ramifications.png Graphic file (type png)
 <use figuras/introdução/ml_ramifications.png>
-Package pdftex.def Info: figuras/introdução/ml_ramifications.png  used on input line 85.
+Package pdftex.def Info: figuras/introdução/ml_ramifications.png  used on input line 91.
 (pdftex.def)             Requested size: 232.17242pt x 165.70613pt.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 85.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+(Font)              scaled to size 9.49997pt on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
  (/home/ploita/.local/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 85.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 85.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 85.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 7.59998pt on input line 85.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 85.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 85.
-
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 85.
+(Font)              scaled to size 3.79999pt on input line 91.
 [3
 
  <./figuras/introdução/ml_ramifications.png>]
-<figuras/introdução/dqn_mnih.png, id=83, 734.745pt x 367.3725pt>
+<figuras/introdução/dqn_mnih.png, id=88, 734.745pt x 367.3725pt>
 File: figuras/introdução/dqn_mnih.png Graphic file (type png)
 <use figuras/introdução/dqn_mnih.png>
-Package pdftex.def Info: figuras/introdução/dqn_mnih.png  used on input line 94.
-(pdftex.def)             Requested size: 377.28296pt x 188.64677pt.
+Package pdftex.def Info: figuras/introdução/dqn_mnih.png  used on input line 100.
+(pdftex.def)             Requested size: 386.95897pt x 193.48445pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 
  []
 
@@ -1391,145 +1374,372 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
 [4
 
- <./figuras/introdução/dqn_mnih.png>]
-<figuras/introdução/information_plane_tishby.png, id=93, 558.085pt x 351.3125pt>
-File: figuras/introdução/information_plane_tishby.png Graphic file (type png)
-<use figuras/introdução/information_plane_tishby.png>
-Package pdftex.def Info: figuras/introdução/information_plane_tishby.png  used on input line 108.
-(pdftex.def)             Requested size: 241.84843pt x 152.24075pt.
-<figuras/introdução/information_bottleneck_lu.png, id=95, 525.965pt x 315.1775pt>
-File: figuras/introdução/information_bottleneck_lu.png Graphic file (type png)
-<use figuras/introdução/information_bottleneck_lu.png>
-Package pdftex.def Info: figuras/introdução/information_bottleneck_lu.png  used on input line 108.
-(pdftex.def)             Requested size: 241.84843pt x 144.92569pt.
-
+ <./figuras/introdução/dqn_mnih.png>]<<VPlayer.swf>><<figuras/introdução/bov.mp4>>
 
 [5
 
- <./figuras/introdução/information_plane_tishby.png> <./figuras/introdução/information_bottleneck_lu.png>]
+]
+<figuras/introdução/information_plane_tishby.png, id=125, 558.085pt x 351.3125pt>
+File: figuras/introdução/information_plane_tishby.png Graphic file (type png)
+<use figuras/introdução/information_plane_tishby.png>
+Package pdftex.def Info: figuras/introdução/information_plane_tishby.png  used on input line 122.
+(pdftex.def)             Requested size: 338.58632pt x 213.14241pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+
+ []
+
+
 
 [6
 
-]
+ <./figuras/introdução/information_plane_tishby.png>]
+<figuras/introdução/information_bottleneck_lu.png, id=136, 525.965pt x 315.1775pt>
+File: figuras/introdução/information_bottleneck_lu.png Graphic file (type png)
+<use figuras/introdução/information_bottleneck_lu.png>
+Package pdftex.def Info: figuras/introdução/information_bottleneck_lu.png  used on input line 131.
+(pdftex.def)             Requested size: 338.58632pt x 202.90079pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+
+ []
+
+
 
 [7
 
-]
-<figuras/fundamentação/perceptron.png, id=131, 433.62pt x 255.95625pt>
-File: figuras/fundamentação/perceptron.png Graphic file (type png)
-<use figuras/fundamentação/perceptron.png>
-Package pdftex.def Info: figuras/fundamentação/perceptron.png  used on input line 142.
-(pdftex.def)             Requested size: 241.84843pt x 142.76039pt.
-<figuras/fundamentação/network.png, id=133, 478.78876pt x 342.27875pt>
-File: figuras/fundamentação/network.png Graphic file (type png)
-<use figuras/fundamentação/network.png>
-Package pdftex.def Info: figuras/fundamentação/network.png  used on input line 142.
-(pdftex.def)             Requested size: 241.84843pt x 172.89378pt.
-
+ <./figuras/introdução/information_bottleneck_lu.png>]
 
 [8
 
- <./figuras/fundamentação/perceptron.png> <./figuras/fundamentação/network.png>]
-<figuras/fundamentação/rl_problematic.png, id=142, 523.9575pt x 216.81pt>
-File: figuras/fundamentação/rl_problematic.png Graphic file (type png)
-<use figuras/fundamentação/rl_problematic.png>
-Package pdftex.def Info: figuras/fundamentação/rl_problematic.png  used on input line 156.
-(pdftex.def)             Requested size: 251.52443pt x 104.07753pt.
-<figuras/fundamentação/loss_ppo.png, id=144, 624.3325pt x 285.065pt>
-File: figuras/fundamentação/loss_ppo.png Graphic file (type png)
-<use figuras/fundamentação/loss_ppo.png>
-Package pdftex.def Info: figuras/fundamentação/loss_ppo.png  used on input line 156.
-(pdftex.def)             Requested size: 232.17242pt x 106.00742pt.
-
+]
 
 [9
 
- <./figuras/fundamentação/rl_problematic.png> <./figuras/fundamentação/loss_ppo.png>]
-<figuras/fundamentação/information_problem.png, id=153, 680.5425pt x 330.23375pt>
-File: figuras/fundamentação/information_problem.png Graphic file (type png)
-<use figuras/fundamentação/information_problem.png>
-Package pdftex.def Info: figuras/fundamentação/information_problem.png  used on input line 170.
-(pdftex.def)             Requested size: 241.84843pt x 117.35724pt.
-<figuras/fundamentação/information_plane_shwartz.png, id=155, 662.475pt x 448.67625pt>
-File: figuras/fundamentação/information_plane_shwartz.png Graphic file (type png)
-<use figuras/fundamentação/information_plane_shwartz.png>
-Package pdftex.def Info: figuras/fundamentação/information_plane_shwartz.png  used on input line 170.
-(pdftex.def)             Requested size: 241.84843pt x 163.79628pt.
+]
+<figuras/fundamentação/perceptron.png, id=160, 433.62pt x 255.95625pt>
+File: figuras/fundamentação/perceptron.png Graphic file (type png)
+<use figuras/fundamentação/perceptron.png>
+Package pdftex.def Info: figuras/fundamentação/perceptron.png  used on input line 179.
+(pdftex.def)             Requested size: 338.58632pt x 199.86768pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+
+ []
+
 
 
 [10
 
- <./figuras/fundamentação/information_problem.png> <./figuras/fundamentação/information_plane_shwartz.png>]
+ <./figuras/fundamentação/perceptron.png>]
+<figuras/fundamentação/network.png, id=171, 478.78876pt x 342.27875pt>
+File: figuras/fundamentação/network.png Graphic file (type png)
+<use figuras/fundamentação/network.png>
+Package pdftex.def Info: figuras/fundamentação/network.png  used on input line 188.
+(pdftex.def)             Requested size: 338.58632pt x 242.04816pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+
+ []
+
+
+Overfull \vbox (3.49013pt too high) detected at line 188
+ []
+
+
 
 [11
 
-]
-<figuras/metodologia/used_network.png, id=170, 391.4625pt x 333.245pt>
-File: figuras/metodologia/used_network.png Graphic file (type png)
-<use figuras/metodologia/used_network.png>
-Package pdftex.def Info: figuras/metodologia/used_network.png  used on input line 195.
-(pdftex.def)             Requested size: 270.86906pt x 230.59523pt.
-<figuras/metodologia/stable_baselines3.png, id=171, 346.29375pt x 303.1325pt>
-File: figuras/metodologia/stable_baselines3.png Graphic file (type png)
-<use figuras/metodologia/stable_baselines3.png>
-Package pdftex.def Info: figuras/metodologia/stable_baselines3.png  used on input line 195.
-(pdftex.def)             Requested size: 212.82779pt x 186.30743pt.
-
-Overfull \vbox (2.67447pt too high) detected at line 195
- []
-
+ <./figuras/fundamentação/network.png>]
+<figuras/fundamentação/rl_problematic.png, id=180, 523.9575pt x 216.81pt>
+File: figuras/fundamentação/rl_problematic.png Graphic file (type png)
+<use figuras/fundamentação/rl_problematic.png>
+Package pdftex.def Info: figuras/fundamentação/rl_problematic.png  used on input line 199.
+(pdftex.def)             Requested size: 338.58632pt x 140.10768pt.
 
 
 [12
 
- <./figuras/metodologia/used_network.png> <./figuras/metodologia/stable_baselines3.png>]
+ <./figuras/fundamentação/rl_problematic.png>]
+Overfull \hbox (1.45694pt too wide) detected at line 221
+\OML/cmm/m/it/14.4 q[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 s; a\OT1/cmr/m/n/14.4 ) = \U/msb/m/n/14.4 E[] []
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 221--221
+ [][] 
+ []
+
+
 
 [13
 
 ]
-<figuras/metodologia/kraskov_knn.png, id=186, 407.5225pt x 381.425pt>
-File: figuras/metodologia/kraskov_knn.png Graphic file (type png)
-<use figuras/metodologia/kraskov_knn.png>
-Package pdftex.def Info: figuras/metodologia/kraskov_knn.png  used on input line 213.
-(pdftex.def)             Requested size: 377.28296pt x 353.13852pt.
+<figuras/fundamentação/actor_network.png, id=209, 210.7875pt x 268.00125pt>
+File: figuras/fundamentação/actor_network.png Graphic file (type png)
+<use figuras/fundamentação/actor_network.png>
+Package pdftex.def Info: figuras/fundamentação/actor_network.png  used on input line 241.
+(pdftex.def)             Requested size: 169.29315pt x 215.24777pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
 
  []
 
+<figuras/fundamentação/critic_network.png, id=210, 194.7275pt x 268.00125pt>
+File: figuras/fundamentação/critic_network.png Graphic file (type png)
+<use figuras/fundamentação/critic_network.png>
+Package pdftex.def Info: figuras/fundamentação/critic_network.png  used on input line 241.
+(pdftex.def)             Requested size: 145.11053pt x 199.72046pt.
 
-Overfull \vbox (118.0582pt too high) detected at line 213
+Underfull \hbox (badness 10000) in paragraph at lines 241--241
+
  []
 
 
 
 [14
 
- <./figuras/metodologia/kraskov_knn.png>]
+ <./figuras/fundamentação/actor_network.png> <./figuras/fundamentação/critic_network.png>]
+<figuras/fundamentação/loss_ppo.png, id=219, 624.3325pt x 285.065pt>
+File: figuras/fundamentação/loss_ppo.png Graphic file (type png)
+<use figuras/fundamentação/loss_ppo.png>
+Package pdftex.def Info: figuras/fundamentação/loss_ppo.png  used on input line 259.
+(pdftex.def)             Requested size: 338.58632pt x 154.59831pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+
+ []
+
+
+Overfull \vbox (13.90898pt too high) detected at line 259
+ []
+
+
 
 [15
 
-]
+ <./figuras/fundamentação/loss_ppo.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 273.
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+
+ []
+
+
 
 [16
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+
+ []
+
+
 
 [17
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 253.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 253.
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+
+ []
+
 
 
 [18
 
 ]
+<figuras/fundamentação/information_problem.png, id=248, 680.5425pt x 330.23375pt>
+File: figuras/fundamentação/information_problem.png Graphic file (type png)
+<use figuras/fundamentação/information_problem.png>
+Package pdftex.def Info: figuras/fundamentação/information_problem.png  used on input line 282.
+(pdftex.def)             Requested size: 435.32422pt x 211.24304pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+
+ []
+
+
 
 [19
 
+ <./figuras/fundamentação/information_problem.png>]
+<figuras/fundamentação/information_plane_shwartz.png, id=257, 662.475pt x 448.67625pt>
+File: figuras/fundamentação/information_plane_shwartz.png Graphic file (type png)
+<use figuras/fundamentação/information_plane_shwartz.png>
+Package pdftex.def Info: figuras/fundamentação/information_plane_shwartz.png  used on input line 291.
+(pdftex.def)             Requested size: 338.58632pt x 229.31479pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+
+ []
+
+
+
+[20
+
+ <./figuras/fundamentação/information_plane_shwartz.png>]
+<figuras/fundamentação/information_problem_rl.png, id=266, 810.02625pt x 393.47pt>
+File: figuras/fundamentação/information_problem_rl.png Graphic file (type png)
+<use figuras/fundamentação/information_problem_rl.png>
+Package pdftex.def Info: figuras/fundamentação/information_problem_rl.png  used on input line 301.
+(pdftex.def)             Requested size: 386.95897pt x 187.96887pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+
+ []
+
+
+
+[21
+
+ <./figuras/fundamentação/information_problem_rl.png>]
+<figuras/metodologia/python.png, id=274, 233.87375pt x 242.9075pt>
+File: figuras/metodologia/python.png Graphic file (type png)
+<use figuras/metodologia/python.png>
+Package pdftex.def Info: figuras/metodologia/python.png  used on input line 316.
+(pdftex.def)             Requested size: 120.92421pt x 125.59726pt.
+<figuras/metodologia/github.png, id=275, 233.87375pt x 233.87375pt>
+File: figuras/metodologia/github.png Graphic file (type png)
+<use figuras/metodologia/github.png>
+Package pdftex.def Info: figuras/metodologia/github.png  used on input line 316.
+(pdftex.def)             Requested size: 120.92421pt x 120.92628pt.
+
+
+[22
+
+ <./figuras/metodologia/python.png> <./figuras/metodologia/github.png>]
+<figuras/metodologia/used_network.png, id=283, 391.4625pt x 333.245pt>
+File: figuras/metodologia/used_network.png Graphic file (type png)
+<use figuras/metodologia/used_network.png>
+Package pdftex.def Info: figuras/metodologia/used_network.png  used on input line 333.
+(pdftex.def)             Requested size: 193.47578pt x 164.70506pt.
+<figuras/metodologia/stable_baselines3.png, id=284, 346.29375pt x 303.1325pt>
+File: figuras/metodologia/stable_baselines3.png Graphic file (type png)
+<use figuras/metodologia/stable_baselines3.png>
+Package pdftex.def Info: figuras/metodologia/stable_baselines3.png  used on input line 333.
+(pdftex.def)             Requested size: 193.47578pt x 169.3645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[][][]\T1/phv/b/n/10 Figura 18[][].[] |\T1/phv/m/n/10 Im-ple-men-ta��o com Stable-
+ []
+
+
+Overfull \vbox (17.96606pt too high) detected at line 333
+ []
+
+
+
+[23
+
+ <./figuras/metodologia/used_network.png> <./figuras/metodologia/stable_baselines3.png>]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 358.
+
+
+[24
+
+]
+<figuras/metodologia/kraskov_knn.png, id=301, 407.5225pt x 381.425pt>
+File: figuras/metodologia/kraskov_knn.png Graphic file (type png)
+<use figuras/metodologia/kraskov_knn.png>
+Package pdftex.def Info: figuras/metodologia/kraskov_knn.png  used on input line 370.
+(pdftex.def)             Requested size: 193.47578pt x 181.08563pt.
+
+Underfull \hbox (badness 1721) in paragraph at lines 370--370
+[][][]\T1/phv/b/n/10 Figura 19[][].[] |\T1/phv/m/n/10 Es-ti-ma��o por KNN con-forme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+
+ []
+
+
+Overfull \vbox (11.75708pt too high) detected at line 370
+ []
+
+
+
+[25
+
+ <./figuras/metodologia/kraskov_knn.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 420.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 420.
+
+Overfull \hbox (36.56435pt too wide) in paragraph at lines 420--420
+ [] 
+ []
+
+
+Overfull \hbox (2.88145pt too wide) detected at line 420
+[] []
+ []
+
+
+
+[26
+
+]
+
+[27
+
+]
+<figuras/resultados/e2information_plots.pdf, id=328, 943.5906pt x 692.90154pt>
+File: figuras/resultados/e2information_plots.pdf Graphic file (type pdf)
+<use figuras/resultados/e2information_plots.pdf>
+Package pdftex.def Info: figuras/resultados/e2information_plots.pdf  used on input line 458.
+(pdftex.def)             Requested size: 217.66211pt x 159.8292pt.
+<figuras/resultados/e2loss+reward.pdf, id=329, 842.59232pt x 697.91049pt>
+File: figuras/resultados/e2loss+reward.pdf Graphic file (type pdf)
+<use figuras/resultados/e2loss+reward.pdf>
+Package pdftex.def Info: figuras/resultados/e2loss+reward.pdf  used on input line 458.
+(pdftex.def)             Requested size: 217.66211pt x 180.28102pt.
+
+
+[28
+
+ <./figuras/resultados/e2information_plots.pdf> <./figuras/resultados/e2loss+reward.pdf>]
+
+[29
+
+]
+
+[30
+
+]
+
+[31
+
+]
+
+[32
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 481.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 481.
+
+
+[33
 
 ]
 \tf@nav=\write7
@@ -1541,12 +1751,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 \tf@snm=\write9
 \openout9 = `modelo_defesa.snm'.
 
-
-
-Package caption Warning: Unused \captionsetup[table] on input line 46.
-See the caption package documentation for explanation.
-
-(./modelo_defesa.aux)
+ (./modelo_defesa.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -1558,18 +1763,18 @@ Package logreq Info: Writing requests to 'modelo_defesa.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48994 strings out of 467800
- 1142141 string characters out of 5426678
- 2035558 words of memory out of 5000000
- 76705 multiletter control sequences out of 15000+600000
- 679905 words of font info for 89 fonts, out of 8000000 for 9000
+ 50441 strings out of 467800
+ 1177911 string characters out of 5426678
+ 2064429 words of memory out of 5000000
+ 78088 multiletter control sequences out of 15000+600000
+ 694988 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,131p,2064b,2070s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/ploita/.local/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on modelo_defesa.pdf (19 pages, 967761 bytes).
+ 128i,15n,131p,2064b,1983s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/ploita/.local/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on modelo_defesa.pdf (33 pages, 2995420 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

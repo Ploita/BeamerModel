@@ -11,9 +11,13 @@
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Fonts
 % \RequirePackage{palatino} % for serif slides
-% \usefonttheme{serif}
-\RequirePackage[scaled]{helvet} % for sans-serif slides
+% \usefonttheme{default}
+% \usefonttheme[onlymath]{mathrm}
+\usefonttheme{professionalfonts}
+% \setbeamerfont{math text}{series=\normalfont}
 
+\RequirePackage[scaled]{helvet} % for sans-serif slides
+% \usepackage{amsmath, amsfonts, amssymb}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 
@@ -85,9 +89,10 @@
 \RequirePackage{amsmath} 
 \RequirePackage{amsthm}
 \RequirePackage{mathtools}
-%\RequirePackage{bbm}
+\RequirePackage{bm}
+\RequirePackage{bbm}
 %\RequirePackage{algorithm}
-%\RequirePackage[osf,sc]{mathpazo}
+% \RequirePackage[osf,sc]{mathpazo}
 %\RequirePackage{pifont}
 %\newcommand{\xmark}{\ding{55}}%
 %\numberwithin{equation}{section}

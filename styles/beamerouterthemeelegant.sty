@@ -33,12 +33,12 @@
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Footer
 
-% Set Margins around footer
+% Keep page number anchored regardless of frame content height.
 \setbeamertemplate{footline}{
-\hspace*{10mm}
-{\hfill \color{primary} \footnotesize \insertframenumber{}}
-\hspace*{10mm} 
-\vspace*{0.6cm}
+\begin{beamercolorbox}[wd=\paperwidth,ht=2.6ex,dp=1.2ex,leftskip=10mm,rightskip=10mm]{}
+\hfill\color{primary}\footnotesize\insertframenumber{}
+\end{beamercolorbox}
+\vspace*{0.35cm}
 }
 
 \mode<all>

@@ -28,12 +28,35 @@
       \includegraphics[width=\linewidth]{#1}%
     }{%
       \fbox{\parbox[c][0.48\textheight][c]{\linewidth}{\centering
-      placeholder text}}%
+      Diretório quebrado}}%
     }%
     \captionsetup{type=figure,width=\linewidth,justification=justified,singlelinecheck=false}
     \caption{#2}%
   \end{minipage}
   \endgroup
 }
+
+% Convenience block command with automatic pause after the block.
+% Usage: \BlockPause{Title}{content}
+\newcommand{\BlockPause}[2]{%
+  \begin{block}{#1}
+    #2
+  \end{block}
+  \pause
+}
+
+% Convenience equation command with line break and pause after equation.
+% Usage: \EquationPause{a=b}
+\newcommand{\EquationPause}[1]{%
+  \begin{equation*}
+    #1
+  \end{equation*}
+  \newline
+  \pause
+}
+
+% Lowercase aliases.
+\newcommand{\blockpause}[2]{\BlockPause{#1}{#2}}
+\newcommand{\equationpause}[1]{\EquationPause{#1}}
   
 \mode<all>
