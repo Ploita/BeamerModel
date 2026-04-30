@@ -1,0 +1,490 @@
+\documentclass[
+11pt,notheorems,hyperref={pdfauthor=Autor}
+]{beamer}
+\usepackage{media9}
+\addmediapath{figuras}
+\addmediapath{figuras/introdução}
+\addmediapath{figuras/fundamentação}
+\addmediapath{figuras/conclusão}
+\addmediapath{figuras/metodologia}
+\addmediapath{figuras/resultados}
+\input{loadslides.tex}
+
+% =========================
+% Metadados da apresentacao
+% =========================
+\title{Análise do Treinamento de Redes Neurais Profundas no Paradigma de Aprendizado por Reforço Através do Plano de Informação}
+\author{Arthur Fernandes}
+\institute{UNIVERSIDADE ESTADUAL DE CAMPINAS}
+\date{Campinas \the\year}
+
+\newcommand{\orientador}{Prof. Dr. Denis Fantinato}
+
+% Capa: Instituto, Laboratório, Universidade
+\SetupCustomTitle{logo_feec.png}{logo_dspcom.pdf}{unicamp-logotipo.pdf}
+
+\begin{document}
+
+\begin{frame}[plain]
+    \maketitle
+\end{frame}
+
+\begin{frame}[plain]{Sumário}
+    \tableofcontents
+\end{frame}
+
+\section{Introdução}
+\begin{frame}{Introdução}
+
+\begin{columns}[T,onlytextwidth]
+    \column{0.52\textwidth}
+    \begin{itemize}
+        \item Supervisionado \pause
+        \item Não Supervisionado \pause
+        \item Por Reforço (RL) 
+    \end{itemize}
+    \pause
+
+    \column{0.48\textwidth}
+    \centering
+    \FigureWithFallbackCaption
+    {ml_ramifications.png}
+    {Paradigmas de aprendizado: supervisionado, não supervisionado e por reforço.}
+
+\end{columns}
+\end{frame}
+
+\begin{frame}{Introdução}{Uso de redes profundas em RL~\textcite{mnih_human-level_2015}}
+    \pause
+    \centering
+    \begin{minipage}{0.8\textwidth}
+        \FigureWithFallbackCaption
+        {dqn_mnih.png}
+        {Arquitetura DQN aplicada a jogos Atari \parencite{mnih_human-level_2015}.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Introdução}{Recompensa acumulada}
+    \pause
+    \begin{minipage}{\textwidth}
+        \centering
+        \includemedia[
+        width=320pt,
+        height=224pt,
+        activate=pagevisible,
+        addresource=bov.mp4,
+        flashvars={source=bov.mp4}
+        ]{}{VPlayer.swf}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Introdução}{Plano de Informação e Information Bottleneck ~\textcite{shwartz-ziv_opening_2017}}
+    \pause
+    \centering
+    \begin{minipage}{0.7\textwidth}
+        \FigureWithFallbackCaption
+        {information_plane_tishby.png}
+        {Plano de Informação na formulação clássica \parencite{shwartz-ziv_opening_2017}.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Introdução}{Information Bottleneck e RL \textcite{fan_dribo_2022}}
+    \pause
+    \centering
+    \begin{minipage}{0.7\textwidth}
+        \FigureWithFallbackCaption
+        {information_bottleneck_lu.png}
+        {Abordagem clássica do Information Bottleneck \parencite{shwartz-ziv_opening_2017}.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Objetivos}
+    \pause
+    \textbf{Geral}: aprofundar a compreensão da dinâmica do aprendizado em RL a partir do plano de informação.
+
+    \pause
+    \textbf{Específicos}:
+\begin{itemize}
+    \item Investigar o fluxo de informação na rede profunda durante o aprendizado do agente;
+    \pause
+    \item Analisar trajetórias no plano de informação e identificar possíveis estágios do aprendizado;
+    \pause
+    \item Propor variação do plano de informação para RL sem depender de rótulo explícito;
+    \pause
+    \item Avaliar efeito de topologias distintas em diferentes ambientes.
+\end{itemize}
+\end{frame}
+
+\section{Fundamentação}
+\begin{frame}{Fundamentação}
+\pause
+    \begin{itemize}
+    \item \textbf{Redes Neurais Artificiais}: \pause
+        \begin{itemize}
+            \item Perceptron\pause
+            \item MLP\pause
+        \end{itemize} 
+    \item \textbf{Aprendizado por Reforço}:\pause
+    \begin{itemize}
+        \item Introdução ao RL\pause
+        \item Funções Valor\pause
+        \item Função da Aproximação\pause
+        \item Actor-Critic\pause
+        \item Proximal Policy Optimization\pause
+    \end{itemize}
+    
+    \item \textbf{Teoria da Informação}: \pause
+    \begin{itemize}
+        \item Entropia, Divergência KL e Informação Mútua \pause
+        \item Information Bottleneck \pause
+        \item Plano de Informação
+    \end{itemize} 
+    
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Redes Neurais Artificiais}
+    \pause
+    \centering
+    \begin{minipage}{0.7\textwidth}
+        \FigureWithFallbackCaption
+        {perceptron.png}
+        {Perceptron \cite{haykin_neural_2009}.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Redes Neurais Artificiais}
+    \pause
+    \centering
+    \begin{minipage}{0.7\textwidth}
+        \FigureWithFallbackCaption
+        {network.png}
+        {Multi-Layer Perceptron (MLP) \cite{haykin_neural_2009}.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Aprendizado por Reforço}
+    \pause
+    \centering
+    \begin{minipage}{0.7\textwidth}
+        \FigureWithFallbackCaption
+        {rl_problematic.png}
+        {Dinâmica de Aprendizado por Reforço \cite{russell_artificial_2010}.}
+        \centering
+        \pause
+        \Large{$(s_k,a_k,s_{k+1},r_{k+1})$}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Aprendizado por Reforço}
+\pause
+    \begin{columns}[T,onlytextwidth]
+    \column{0.50\textwidth}
+    
+    \Large{
+        \equationpause{
+        v_\pi(s) = \E_\pi\left[\sum_{k=0}^{\infty} \gamma^k r_{k+1}| S=s\right]           
+        }
+    }
+    \Large{
+        \equationpause{
+        q_\pi(s,a) = \E_\pi\left[\sum_{k=0}^{\infty} \gamma^k r_{k+1}| S=s, A=a\right]    
+        }
+    }
+    \Large{
+        \equationpause{
+        \hat Q _\theta (s,a) = \boldsymbol{\theta}^T  \mathbf{f}(s,a)
+        }
+    }
+    
+    \column{0.50\textwidth}
+    \FigureWithFallbackCaption
+    {propagação_estados.png}
+    {Plano de Informação \parencite{shwartz-ziv_opening_2017}.}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Aprendizado por Reforço}
+    \pause
+    \begin{columns}[T]
+        \column{0.50\textwidth}
+        \centering
+        \begin{minipage}{0.7\textwidth}
+            \FigureWithFallbackCaption
+            {actor_network.png}
+            {Actor network}    
+        \end{minipage}
+
+        \column{0.50\textwidth}
+        \pause
+        \centering
+        \begin{minipage}{0.6\textwidth}
+            \FigureWithFallbackCaption
+            {critic_network.png}
+            {Critic network}
+        \end{minipage}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Aprendizado por Reforço}
+    \pause
+    \centering
+    \equationpause{
+        \mathcal{L}^{CLI} = \E \left[\frac{\pi_\theta(a|s)}{\pi_{\theta_{\text{old}}}(a|s)\hat A_k}\right] = \E \left[r_k(\theta)\hat A_k\right]
+    }
+    \equationpause{
+        \mathcal{L}^{CLIP} = \E \left[\min \left(r_k(\theta)\hat A_k, \operatorname{clip}(r_k(\theta), 1-\epsilon, 1+\epsilon)\hat A_k\right)\right]
+    }
+    \begin{minipage}{0.7\textwidth}
+        \FigureWithFallbackCaption
+        {loss_ppo.png}
+        {Proximal Policy Optimization \cite{schulman_proximal_2017}.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Teoria da Informação}
+    \pause
+    \LARGE{
+        \equationpause{
+        H(X)=-\sum_{x\in \mathcal{X}}p(x)\log_2 p(x)
+        }
+    }
+    \LARGE{
+        \equationpause{
+        D(p||q) = \sum_{x\in \mathcal{X}}p(x)\log_2 \frac{p(x)}{q(x)}
+        }
+    }
+    \LARGE{
+        \begin{equation*}
+            I(X;Y) = \sum_{x\in \mathcal{X}} \sum_{y\in \mathcal{Y}} p(x,y) \log_2 \frac{p(x,y)}{p(x)p(y)}
+        \end{equation*}
+    }
+\end{frame}
+
+\begin{frame}{Fundamentação}{Teoria da Informação}
+    \pause
+    \centering
+    \begin{minipage}{0.9\textwidth}
+        \FigureWithFallbackCaption
+        {information_problem.png}
+        {Fluxo da Informação - caso supervisionado.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Teoria da Informação}
+    \pause
+    \centering
+    \begin{minipage}{0.7\textwidth}
+        \FigureWithFallbackCaption
+        {information_plane_shwartz.png}
+        {Plano de Informação \cite{shwartz-ziv_opening_2017}.}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}{Fundamentação}{Teoria da Informação}
+    \pause
+    \begin{justify}
+        Usamos $\hat Y$ para aproximar ao invés do rótulo $Y$.
+    \end{justify}
+
+    \pause
+    \centering
+    \begin{minipage}{0.8\textwidth}
+        \FigureWithFallbackCaption
+        {information_problem_rl.png}
+        {Fluxo da Informação - caso por reforço.}
+    \end{minipage}
+\end{frame}
+
+\section{Metodologia}
+\begin{frame}{Metodologia}{Agente, Estimação de Informação Mútua e Ambientes}
+\pause
+    \begin{columns}[T]
+    \column{0.25\textwidth}
+    \FigureWithFallbackCaption
+    {python.png}
+    {}
+    \pause
+
+    \column{0.25\textwidth}
+    \FigureWithFallbackCaption
+    {github.png}
+    {}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Metodologia}{Agente}
+\pause
+Topologia padrão: duas camadas intermediárias com $32$ neurônios.\newline\pause
+Topologia alternativas: uma camada intermediária com $32$ neurônios; e três camadas intermediárias com $32$ neurônios.\newline\pause
+Cada experimento foi executado por $10^6$ passos. \newline\pause
+\begin{columns}[T]
+    \column{0.4\textwidth}
+    \FigureWithFallbackCaption
+    {used_network.png}
+    {Topologia de rede utilizada nos experimentos.}
+    \pause
+
+    \column{0.4\textwidth}
+    \FigureWithFallbackCaption
+    {stable_baselines3.png}
+    {Implementação com Stable-Baselines3.}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Metodologia}{Informação Mútua}
+    
+    \begin{itemize}
+        \item A biblioteca NPEET foi utilizada para a estimação da IM, o método é baseado em \textcite{kraskov_estimating_2004}; \pause
+        \item Pequenas flutuações e ruídos na curva de IM estimada são inerentes ao processo de estimação; \pause
+        \item Foi analisado o fluxo entre todas as camadas, não só utlizando entrada e saída real. \pause
+    \end{itemize}
+
+
+\begin{columns}[T]
+    \column{0.4\textwidth}
+    \LARGE{\begin{equation*}
+        \hat{I}(X;h_2) \times \hat I (h_2; \hat Y)
+    \end{equation*}}
+
+    \column{0.4\textwidth}
+    \LARGE{\begin{equation*}
+        \hat{I}(h_1;h_2) \times \hat I (h_2; \hat Y)
+    \end{equation*}}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Metodologia}{Estimação de Informação Mútua}
+    \pause
+    \centering
+    \begin{minipage}{0.4\textwidth}
+        \FigureWithFallbackCaption
+        {kraskov_knn.png}
+        {Estimação por KNN conforme \textcite{kraskov_estimating_2004}.}
+    \end{minipage}
+    \pause
+    \Large{\begin{equation*}
+        {\hat{I}(X;Y) = \psi(k)-\frac{1}{N}\sum_{i=1}^{N}\left[\psi(n_{x_i}) + \psi(n_{y_i}) + \psi(N)\right]}
+    \end{equation*}}
+\end{frame}
+
+\begin{frame}{Metodologia}{Ambientes}
+\begin{columns}[T]
+    \pause
+    \column{0.4\textwidth}
+    \begin{table}[h!]
+    \centering
+    \caption{Observações do ambiente \textit{CartPole}}
+    \begin{tabular}{ccc}
+    \hline
+    \textbf{Observação} & \textbf{Min} & \textbf{Max} \\
+    \hline
+    Posição do carrinho& $-4.8$&$ 4.8$ \\
+    Velocidade do carrinho& $-\infty$ & $\infty$ \\
+    Ângulo da haste& $\sim -24^\circ$& $\sim 24^\circ$\\
+    Velocidade angular da haste& $-\infty$ & $\infty$\\
+    \hline
+    \end{tabular}
+    \caption*{Fonte: Adaptado de \textcite{towers_gymnasium_2023}.}
+    \end{table}
+    \vspace{0.25cm}
+    \pause
+    \begin{equation*}
+    \text{Empurrar o carrinho para}
+        \begin{cases}
+            0: \text{esquerda}
+            \\
+            1: \text{direita}
+        \end{cases}
+    \end{equation*}
+    \vspace{0.25cm}
+    \column{0.4\textwidth}
+    \pause
+    gif eventual
+    % \begin{minipage}{\textwidth}
+        % \centering
+        % \includemedia[
+        % width=320pt,
+        % height=224pt,
+        % activate=pagevisible,
+        % addresource=cart_pole.gif,
+        % flashvars={source=cart_pole.gif}
+        % ]{}{VPlayer.swf}
+    % \end{minipage}
+\end{columns}
+\pause
+Critérios para finalização do episódio:
+\pause
+\begin{itemize}
+    \item Se a posição do carrinho ultrapassar a região $(-2.4,2,4)$; \pause
+    \item Se o ângulo da haste sair da região $(-12^\circ, 12^\circ)$; \pause
+    \item Se a recompensa acumulada atingir o limite de 500.
+\end{itemize}
+\end{frame}
+
+\section{Resultados}
+\begin{frame}{Resultados principais}
+\pause
+\centering
+\begin{table}[h]
+    \centering
+    \caption{Tabela de experimentos}
+    \begin{tabular}{ccc}
+    \hline
+    \textbf{Experimento} & \textbf{Ambiente} & \textbf{Topologia} \\
+    \hline
+    I       & CartPole     & $(n_X, 32, 32, n_Y)$\\
+    II      & Acrobot      & $(n_X, 32, 32, n_Y)$\\
+    III     & Pendulum     & $(n_X, 32, 32, n_Y)$\\
+    IV      & MountainCar  & $(n_X, 32, 32, n_Y)$\\
+    V       & CartPole     & $(n_X, 32, n_Y)$\\
+    VI      & CartPole     & $(n_X, 32, 32, 32, n_Y)$\\
+    VII     & Acrobot      & $(n_X, 32, n_Y)$\\
+    VIII    & Acrobot      & $(n_X, 32, 32, 32, n_Y)$\\
+    
+    \hline
+    \end{tabular}
+\end{table}
+\end{frame}
+
+\begin{frame}{Resultados}{Experimento II}
+\begin{columns}[T]
+    \pause
+    \column{0.45\textwidth}
+    \FigureWithFallbackCaption
+    {e2information_plots.pdf}
+    {Topologia de rede utilizada nos experimentos.}
+
+    \pause
+    \column{0.45\textwidth}
+    \FigureWithFallbackCaption
+    {e2loss+reward.pdf}
+    {Implementação com Stable-Baselines3.}
+\end{columns}
+\end{frame}
+
+
+\section{Conclusão}
+\begin{frame}
+    \pause
+    \begin{itemize}
+        \item Fases distintas no aprendizado; \pause
+        \item Generalização requer investigação aprofundada; \pause
+        \item O plano de informação como métrica alternativa;\pause
+        \item Tendências no plano de informação podem indicar uma potencial convergência do aprendizado.
+    \end{itemize}
+\end{frame}
+
+
+\section{Referências}
+\begin{frame}[allowframebreaks]{Referências}
+    \small
+    \setlength{\leftmargini}{1.8em}
+    \setlength{\bibitemsep}{0.25\baselineskip}
+    \setlength{\bibhang}{1.0em}
+    \raggedright
+    \justifying
+    \printbibliography
+\end{frame}
+
+\end{document}

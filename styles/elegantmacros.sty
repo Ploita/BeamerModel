@@ -58,5 +58,41 @@
 % Lowercase aliases.
 \newcommand{\blockpause}[2]{\BlockPause{#1}{#2}}
 \newcommand{\equationpause}[1]{\EquationPause{#1}}
+
+% Custom title page with logos as parameters
+% Usage: \SetupCustomTitle{feec_logo.png}{dspcom_logo.pdf}{unicamp_logo.pdf}
+\newcommand{\SetupCustomTitle}[3]{%
+  \def\@institutologo{#1}%
+  \def\@lablogo{#2}%
+  \def\@unilogo{#3}%
+  \renewcommand{\maketitle}{%
+    \vspace{-6\baselineskip}%
+    \begin{center}%
+      \IfFileExists{\@institutologo}{\includegraphics[height=1.25cm]{\@institutologo}}{}\hfill%
+      \IfFileExists{\@lablogo}{\includegraphics[height=1.25cm]{\@lablogo}}{}%
+    \end{center}%
+    \begin{center}%
+      \IfFileExists{\@unilogo}{\includegraphics[height=2.5cm]{\@unilogo}}{}%
+    \end{center}%
+    \begin{center}%
+      \large\text{\insertinstitute}%
+    \end{center}%
+    \vspace{0.5cm}%
+    \centering%
+    \Large\textbf{\inserttitle}%
+    \vspace{0.2cm}%
+    \normalsize\insertsubtitle%
+    \vspace{0.6cm}%
+    \begin{center}%
+      {\large \insertauthor}\\%
+      \small \orientador%
+    \end{center}%
+    \vfill%
+    \begin{center}%
+      \scriptsize\insertdate%
+    \end{center}%
+    \vspace{-4.5\baselineskip}%
+  }%
+}
   
 \mode<all>
